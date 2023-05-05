@@ -1,2 +1,10 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 80px;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
