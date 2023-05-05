@@ -5,73 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap w/ Vite</title>
   </head>
-  <body class="bg-dark">
+  <body class="bg-dark pt-3 mt-5">
 
-    <h1 class="bg-secondary text-center fw-bolder d-flex justify-content-center align-items-center py-3">Sanctuary Choir Rehearsal Tracks</h1>
-
-    <div class="container d-lg-flex flex-wrap justify-content-around mb-5">
-
-      <div class="card text-center col-lg-5 col-md-12 rounded bg-light mt-5" >
-        <div class="card-body">
-          <h1 class="card-title fw-bolder">Sunday, April 9</h1>
-          <p class="card-subtitle py-2">Hallelujah from the Mount of Olives</p>
-            <audio class="player" controls>
-              <source src="./files/Hallelujah from the Mount of Olives.mp3"/>
-            </audio>
-            <p class="card-subtitle py-3">Hallelujah Chorus</p>
-            <audio class="player" controls>
-              <source src="./files/LGPC Hallelujah Chorus Orchestra + Organ NO METRONOME v10_mixdown.mp3"/>
-            </audio>
-          </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary fixed-top">
+      <div class="container">
+        <h1 class="navbar-brand fw-bolder fs-1">LGPC Sanctuary Choir</h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navItems">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navItems">
+          <ul class="navbar-nav ms-auto fw-bold" id="navList">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Audio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Youtube</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Other</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    
+    <main>
 
-        <div class="card text-center col-lg-5 col-md-12 rounded bg-light mt-5" >
+      <div class="container d-lg-flex flex-wrap justify-content-around mb-5">
+
+        <div class="card text-center col-lg-5 col-md-12 rounded bg-secondary text-white mt-5" >
           <div class="card-body">
-            <h1 class="card-title fw-bolder">Sunday, April 23</h1>
-            <p class="card-subtitle py-2">How Can I Keep From Singing</p>
+            <h1 class="card-title fw-bolder">Sunday, April 9</h1>
+            <p class="card-subtitle py-2">Hallelujah from the Mount of Olives</p>
               <audio class="player" controls>
-                <source src="./files/8 - How Can I Keep From Singing.mp3"/>
+                <source src="./files/Hallelujah from the Mount of Olives.mp3"/>
               </audio>
-              <p class="card-subtitle py-3">All Earth is Hopeful</p>
+              <p class="card-subtitle py-3">Hallelujah Chorus</p>
               <audio class="player" controls>
-                <source src="./files/16 - All Earth is Hopeful.mp3"/>
+                <source src="./files/LGPC Hallelujah Chorus Orchestra + Organ NO METRONOME v10_mixdown.mp3"/>
               </audio>
             </div>
           </div>
-      
-      
-      <div class="card text-center col-lg-5 col-md-12 rounded bg-light mt-5" >
-        <div class="card-body">
-          <h1 class="card-title fw-bolder">Sunday, April 30</h1>
-          <p class="card-subtitle py-2">Modimo</p>
-            <audio class="player" controls>
-              <source src="./files/Modimo.mp3"/>
-            </audio>
-            <p class="card-subtitle py-3">The Time is Near / I Will March</p>
-            <audio class="player" controls>
-              <source src="./files/The Time is Near _ I Will March.mp3"/>
-            </audio>
+
+          <div class="card text-center col-lg-5 col-md-12 rounded bg-light mt-5" >
+            <div class="card-body">
+              <h1 class="card-title fw-bolder">Sunday, April 23</h1>
+              <p class="card-subtitle py-2">How Can I Keep From Singing</p>
+                <audio class="player" controls>
+                  <source src="./files/8 - How Can I Keep From Singing.mp3"/>
+                </audio>
+                <p class="card-subtitle py-3">All Earth is Hopeful</p>
+                <audio class="player" controls>
+                  <source src="./files/16 - All Earth is Hopeful.mp3"/>
+                </audio>
+              </div>
+            </div>
+        
+        
+        <div class="card text-center col-lg-5 col-md-12 rounded bg-light text-secondary mt-5" >
+          <div class="card-body">
+            <h1 class="card-title fw-bolder">Sunday, April 30</h1>
+            <p class="card-subtitle py-2">Modimo</p>
+              <audio class="player" controls>
+                <source src="./files/Modimo.mp3"/>
+              </audio>
+              <p class="card-subtitle py-3">The Time is Near / I Will March</p>
+              <audio class="player" controls>
+                <source src="./files/The Time is Near _ I Will March.mp3"/>
+              </audio>
+            </div>
           </div>
-        </div>
-      
-      <div class="card text-center col-lg-5 col-md-12 rounded bg-light mt-5">
-        <div class="card-body">
-          <h1 class="card-title fw-bolder">Sunday, May 14</h1>
-          <p class="card-subtitle py-2">I'll Be On My Way</p>
-            <audio class="player" controls>
-              <source src="./files/I'll Be On My Way.mp3" type="audio/mp3" />
-            </audio>
-            <p class="card-subtitle py-3">The Lord Bless You and Keep You</p>
-            <audio class="player" controls>
-              <source src="./files/The Lord Bless You and Keep You.mp3" />
-            </audio>
+        
+        <div class="card text-center col-lg-5 col-md-12 rounded bg-primary text-white mt-5">
+          <div class="card-body">
+            <h1 class="card-title fw-bolder">Sunday, May 14</h1>
+            <p class="card-subtitle py-2">I'll Be On My Way</p>
+              <audio class="player" controls>
+                <source src="./files/I'll Be On My Way.mp3" type="audio/mp3" />
+              </audio>
+              <p class="card-subtitle py-3">The Lord Bless You and Keep You</p>
+              <audio class="player" controls>
+                <source src="./files/The Lord Bless You and Keep You.mp3" />
+              </audio>
+            </div>
           </div>
-        </div>
 
 
-      </div>
+        </div>
   
-
+      </main>
 
     <script type="module" src="./js/main.js"></script>
   </body>
