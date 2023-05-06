@@ -5,6 +5,7 @@ export default {
   resolve: {
     alias: {
       '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+      '~plyr': path.resolve(__dirname, 'node_modules/plyr'),
     }
   },
   server: {
