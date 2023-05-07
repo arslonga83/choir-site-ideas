@@ -13,3 +13,10 @@ const players = Plyr.setup('.custom-player', {
   },
   disableContextMenu: false,
 });
+
+// Contact form submission
+const form = document.getElementById('contact-form')
+form.addEventListener('submit', (e) => {
+  e.preventDefault()
+  // GET FORM DATA 
+})
