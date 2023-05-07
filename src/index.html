@@ -43,7 +43,7 @@
      <!-- just a background image here -->
     </section>
 
-      <!-- 4 SAMPLE CARDS WITH DOWNLOADABLE MP3 AUDIO -->
+      <!-- 4 SAMPLE CARDS WITH AUDIO PLAYER -->
 
       <section class="container d-lg-flex flex-wrap justify-content-around mb-5 mt-5" id="audio">
         <h1 class="text-white text-center fw-bolder col-12">4 Sample Cards with Audio Only</h1>
@@ -119,6 +119,12 @@
               </div>
             </div>
           </div>
+          <div class=" container text-center py-5">
+            <a href="https://www.dropbox.com/sh/wzqsk5p1ri8tpt0/AACYuzgCavb1Lmqu-_aXsrC1a?dl=0" class="btn btn-primary btn-lg text-white d-block mb-5 w-50 mx-auto" target="_blank">Dropbox recordings</a>
+            <a class="btn btn-primary btn-lg text-white d-block w-50 mx-auto" href="https://www.dropbox.com/sh/h2kgji78o3zu9wu/AACt6__0QBk_phFjP_2_T_GZa?dl=0" target="_blank">Practice resources</a></h4>
+          </div>
+         
+          
         </section>
 
         <!-- 2 SAMPLE CARDS WITH EMBEDDED YOUTUBE -->
@@ -131,9 +137,27 @@
           <div class="card-body">
             <h1 class="card-title fw-bolder">Sunday, April 9</h1>
             <p class="card-subtitle py-2">Hallelujah from the Mount of Olives</p>
-            <iframe width="auto" src="https://www.youtube.com/embed/xK-IHpN1HBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              <p class="card-subtitle py-3">Hallelujah Chorus</p>
-              <iframe width="auto" src="https://www.youtube.com/embed/BBZ7AfZR9xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="plyr-container">
+              <div class="plyr__video-embedr custom-player" >
+                <iframe 
+                  src="https://www.youtube.com/embed/xK-IHpN1HBs"
+                  allowfullscreen
+                  allowtransparency
+                  allow="autoplay"
+                ></iframe>
+              </div>
+            </div>
+            <p class="card-subtitle py-3">Hallelujah Chorus</p>
+            <div class="plyr-container">
+              <div class="plyr__video-embedr custom-player" >
+                <iframe 
+                    src="https://www.youtube.com/embed/BBZ7AfZR9xs"
+                    allowfullscreen
+                    allowtransparency
+                    allow="autoplay"
+                  ></iframe>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -141,9 +165,28 @@
             <div class="card-body">
               <h1 class="card-title fw-bolder">Sunday, April 23</h1>
               <p class="card-subtitle py-2">How Can I Keep From Singing</p>
-              <iframe width="auto" src="https://www.youtube.com/embed/rL3-gqGHfdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="plyr-container">
+                <div class="plyr__video-embedr custom-player" >
+                  <iframe 
+                    src="https://www.youtube.com/embed/rL3-gqGHfdw"
+                    allowfullscreen
+                    allowtransparency
+                    allow="autoplay"
+                  ></iframe>
+                </div>
+              </div>
                 <p class="card-subtitle py-3">All Earth is Hopeful</p>
-                <iframe width="auto" src="https://www.youtube.com/embed/dq5BEfErVVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="plyr-container">
+                  <div class="plyr__video-embedr custom-player" >
+                    <iframe 
+                      src="https://www.youtube.com/embed/dq5BEfErVVY"
+                      allowfullscreen
+                      allowtransparency
+                      allow="autoplay"
+                    ></iframe>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -178,7 +221,7 @@
             </li>
             <li class="list-group-item d-lg-flex align-items-center text-center">
               <p class="mb-lg-0 mb-md-1">Sunday, May 14</p>
-              <h5 class="mx-auto mb-lg-0">9:30AM Sanctuary Service</h5>
+              <h5 class="mx-auto mb-lg-0">9:30 AM Sanctuary Service</h5>
               <p class="mb-lg-0 mb-md-1">8:45 - 10:30 AM</p>
             </li>
             <li class="list-group-item d-lg-flex align-items-center text-center">
@@ -188,7 +231,7 @@
             </li>
           </ul>
         </div>
-        <h4 class="text-center py-5"><a href="https://drive.google.com/file/d/184pWLDaAFcElxuchreFMXdkMO29E0eQp/view?usp=sharing" target="_blank">See full schedule</a></h4>
+        <a href="https://drive.google.com/file/d/184pWLDaAFcElxuchreFMXdkMO29E0eQp/view?usp=sharing" target="_blank" class="btn btn-primary btn-lg text-white d-block my-5 w-50 mx-auto">See full schedule</a>
       </section>
 
         <!-- CONTACT FORM  -->
@@ -241,9 +284,9 @@
 
       </main>
 
-      <footer class="bg-light">
+      <footer class="bg-dark">
         <div class="container text-center">
-          <p class="mb-0 py-3 fs-5">Copyright 2023 - 
+          <p class="mb-0 py-3 fs-5 text-white">Copyright 2023 - 
           Designed by Jeff Wood</p>
         </div>
       </footer>

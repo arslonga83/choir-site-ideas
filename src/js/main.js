@@ -13,4 +13,3 @@ const players = Plyr.setup('.custom-player', {
   },
   disableContextMenu: false,
 });
-
