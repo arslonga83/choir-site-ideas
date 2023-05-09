@@ -26,5 +26,3 @@ import { getScheduleHtml } from './schedule';
 getScheduleHtml()
 
 
-
-
