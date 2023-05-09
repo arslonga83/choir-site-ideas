@@ -1,4 +1,4 @@
-import { scheduleData } from '../files/scheduleData'
+import { scheduleData } from '../files/data/scheduleData'
 
 export function getScheduleHtml() {
   const scheduleListGroup = document.getElementById('schedule-list-group')
