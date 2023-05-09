@@ -20,3 +20,11 @@ form.addEventListener('submit', (e) => {
   e.preventDefault()
   // GET FORM DATA 
 })
+
+// render schedule data
+import { getScheduleHtml } from './schedule';
+getScheduleHtml()
+
+
+
+
